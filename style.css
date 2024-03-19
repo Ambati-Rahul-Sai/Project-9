@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(220, 245, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#panel {
+  width: 80%;
+  height: 75%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#ptop {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(82, 102, 82);
+  display: flex;
+  color: #fff;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20%;
+}
+
+.ele {
+  /* width: 10%; */
+  display: flex;
+  /* background-color: red; */
+  align-items: center;
+  gap: 20px;
+}
+
+.ele h2 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.box {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: rgb(49, 77, 49);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#pbtm {
+  width: 100%;
+  height: calc(100% - 100px);
+  /* background-color: black; */
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(80, 107, 80);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.bubble:hover {
+  cursor: pointer;
+  background-color: rgb(49, 77, 49);
+}
